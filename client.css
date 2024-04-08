@@ -1,0 +1,29 @@
+/* Basic styling for the form container */
+#data-form {
+    margin-top: 20px;
+}
+
+/* Styling for the input field */
+#data-input {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Styling for the submit button */
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Styling for the submit button on hover */
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue color */
+}

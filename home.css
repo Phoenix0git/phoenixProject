@@ -1,0 +1,160 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: gilroy;
+
+}
+body{
+    height: 100%;
+    width: 100%;
+    color: white;
+    }
+nav{
+   position: fixed;
+   background-color:rgb(20, 19, 19);
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+   padding: 3vw 15vw;
+
+}
+nav h1{
+   font-size: 3vh;
+   font-weight: 1vh;
+   
+
+}
+#nav-part2{
+   display: flex;
+   gap: 5vw;
+   text-transform: uppercase;
+   padding-right: 0.2vw;
+   color: white;
+   }
+
+#nav-part2 button{
+   background-color: rgb(20, 19, 19);
+   width: 120px;
+   height: 30px;
+   font-size: 25px;
+   color: white;
+   border-radius: 50px;
+}
+#nav-part2 svg{
+   height:1vw;
+
+ }
+ #nav-part2 h3{
+   color:white;
+ }
+#nav-part2 h3:hover{
+   color: rgb(116, 116, 116);
+   transition: 0.65 all ease;
+} 
+#page1{
+   height: 100vh;
+   width: 100%;
+   background-color: rgb(20, 19, 19);
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+}
+
+#page1 h1
+{
+   font-weight: 1200;
+   font-size: 13vh;
+}
+#page1 p
+{
+   text-align: center;
+   font-size: 2vh;
+   margin-top: 3vh;
+}
+#moving-div{
+   margin-top:10vh;
+   position: absolute;
+   white-space: nowrap;
+   padding: 2vw;
+   bottom:3%;
+   width:44%;
+   overflow: hidden;
+}
+#moving-div .move{
+   display:inline-block;
+   animation-name:mobe;
+   animation-duration: 9s;
+   animation-timing-function :linear;
+   animation-iteration-count: infinite;
+}
+#moving-div .move img{
+   height:1.2vw;
+   margin: 0 1vw;
+}
+@keyframes mobe{
+0%{
+   transform: translateX(0);
+}
+100%{
+   transform:translateX(-100%);
+}
+}
+
+   #page2 {
+       height: 100vh;
+       width: 100%;
+       background-color: #111;
+       position: relative;
+       padding: 0vw 10.5vw;
+       padding-bottom: 8vw;
+       display: flex;
+       align-items: center;
+       border-top: 1px solid #333;
+       justify-content: space-between;
+   }
+   
+   #page2-left {
+       height: 100%;
+       width: 40%;
+       display: flex;
+       align-items:flex-start;
+       justify-content: space-between;
+       flex-direction: column;
+     padding: 3vw 0;   }
+   
+   #page2-left p {
+       font-size: 0.8vw;
+   }
+   #page2-left img{
+      width: 590px;
+   }
+   
+   #page2-left h5 {
+       width: 75%;
+       font-weight: 400;
+       font-size: 1.1vw;
+   }
+   
+   
+   #page2-right {
+       height: 100%;
+       width: 50%;
+     }
+   
+   .right-elem {
+       position: relative;
+       padding-top: 2vw;
+       padding-bottom: 5vw;
+       border-bottom: 1px solid #333;
+   }
+   
+   .right-elem h2 {
+       font-size: 1.4vw;
+       font-weight: 400;
+   }
+   
+   
+   
